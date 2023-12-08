@@ -44,19 +44,19 @@ ScrollReveal({
 
 ScrollReveal().reveal('.here', {origin:'top'});
 ScrollReveal().reveal('.hometext',{origin:'left'})
-ScrollReveal().reveal('.big-box0', {origin:'right'});
+ScrollReveal().reveal('.big-box0', {origin:'left'});
 ScrollReveal().reveal('.big-box', {origin:'left'});
 ScrollReveal().reveal('#card1', {origin:'left'});
 ScrollReveal().reveal('#card2', {origin:'top'});
-ScrollReveal().reveal('#card3', {origin:'right'});
+ScrollReveal().reveal('#card3', {origin:'left'});
 ScrollReveal().reveal('#card4', {origin:'bottom'});
 ScrollReveal().reveal('#skil1', {origin:'top'});
-ScrollReveal().reveal('#skil2', {origin:'right'});
+ScrollReveal().reveal('#skil2', {origin:'left'});
 ScrollReveal().reveal('#skil3', {origin:'left'});
 ScrollReveal().reveal('#cont', {origin:'bottom'});
-ScrollReveal().reveal('#txt', {origin:'right'});
+ScrollReveal().reveal('#txt', {origin:'left'});
 ScrollReveal().reveal('.col-fluid', {origin:'left'});
-ScrollReveal().reveal('.small-box', {origin:'right'});
+ScrollReveal().reveal('.small-box', {origin:'left'});
 
 /* multiple text */
 
