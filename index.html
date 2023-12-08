@@ -1,17 +1,374 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hillal titouh</title>
-</head>
-<body>
-    <nav>
-        <a href="">Home</a>
-        <a href="">Services</a>
-        <a href="">About</a>
-        <a href="">Skills</a>
-        <a href="">Contact</a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Titouh hillal</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <div class="d-flex flex-row flex-column align-items-center bd-highlight mb-3">
+                <div class="p-2 bd-highlight">
+                    <div class="container">
+                        <a class="navbar-brand" href="">
+                          <img src="img/logo.png" alt="" width="110" height="30">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active"  href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link"  href="#About">About</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#Contact">Contact</a>
+                    </li>
+                </ul>
+              </div>
+        </div>
     </nav>
+    <main>
+
+        <section id="home">
+            <br><br><br><br><br>
+            <div class="container-lg min-vh-100 align-items-center align-content-center"> 
+              <div class="row">
+                <div class="col-md-6 text-start">
+                    <div class="hometext">
+                      <h1 style="color: white;">Hello<span style="color: red;font-size: 40px;">!</span></h1>
+                      <h1 style="color: white;">I'm <span style="color: red;">HILLAL TITOUH</span></h1>  
+                      <h3 style="color: white;">Welcome to Portfolio</h3> 
+                      <h5 style="color: white;"  class="text">I'm a <span id="multiple-text"></span></h5>
+                      <a href="#Contact">
+                        <button type="button" class="btn btn-outline-danger" id="btn">Contact</button>
+                      </a>
+                    </div>
+                    <br>               
+                </div>     
+                <div class="col-md-6 text-center" id="image">
+                  <div class="big-box0">                       
+                    <img src="img/image.png" class="img-fluid" alt="" style="border: solid 1px white;">
+                  </div>
+                </div>
+              </div>      
+            </div>
+        </section>
+
+        <section id="About" >
+          <div id="sec1" class="container text-center">
+              <div class="row align-items-center">
+                  <!--center the h2-->
+                  <div class="">
+                    <div class="col"></div>
+                    <div class="col">
+                      <br><br><br>
+                      <h2 style="color: white;" class="here">About me</h2>
+                    </div>
+                    <div class="col"></div>
+                    
+                  </div>
+              </div>
+              
+              <div class="container-lg min-vh-100 max-vh-100 align-items-center align-content-center" id="wrapper">
+                  <div class="row">
+                    <div class="col-md-6 text-center">
+                      <div class="big-box">
+                          <br><br><br>
+                          <img src="img/image.png" class="img-fluid" alt="" style="border: solid 1px white;">
+                      </div>
+                    </div>
+                    <div class="col-md-6 text-center" id="div2">
+                      <div class="small-box" style="color: white;">
+                          <div class="row"><br></div>
+                          <div class="row"><br></div>
+                          <div class="row"><br></div>
+                          <div class="row"> 
+                              <div class="col-fluid">
+                                  <p>
+                                      <div>Hi, I'm Hillal Titouh! 👋</div>
+                                      <br>
+                                      <div id="txt">
+                                        I'm a Computer Science student at the University of Bouira,
+                                         with a knack for web development, design, and mobile apps.
+                                          Let's create something amazing together!
+                                      </div>
+                                  </p>
+                              </div>      
+                          </div>
+                          <div class="container text-center">
+                              <br>
+                              <div class="container">
+                                  <div class="row">
+                                    <div class="col">
+                                      <a href="https://www.linkedin.com/in/hillal-titouh-649049257/" target="_blank">
+                                          <i class="fa-brands fa-linkedin fa-xl" style="color: red;"></i>
+                                      </a>
+                                      
+                                    </div>
+                                    <div class="col">
+                                      <a href="https://github.com/Titouh-Hillal" target="_blank">
+                                          <i class="fa-brands fa-github fa-xl" style="color: red;"></i>
+                                      </a>
+                                    </div>
+                                    <div class="col">
+                                      <a href="https://twitter.com/Hillaltitouh1" target="_blank">
+                                          <i class="fa-brands fa-x-twitter fa-xl" style="color: red;"></i>
+                                      </a>
+                                    </div>
+                                    <div class="col">
+                                      <a href="https://www.instagram.com/hillal.titouh/" target="_blank">
+                                          <i class="fa-brands fa-instagram fa-xl" style="color: red;"></i> 
+                                      </a>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+
+        <section id="Services">
+            <div id="sec1" class="container text-center">
+                <div class="row align-items-center">
+                    <!--center the h2-->
+                    <div class="col"></div>
+                    <div class="col">
+                        <br><br><br>
+                        <h2 style="color: white;" class="here">My Services</h2>
+                        <br>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="ser">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col" id="card1">
+                      <div class="card" style="background-color: #353935;color: white; " >
+                        
+                        <div class="card-body" >
+                          <h5 class="card-title">Web developpment</h5>
+                          <i class="fa-solid fa-globe fa-bounce fa-2xl" style="color: #eb0000;"></i>
+                          <p class="card-text">Clean code, sleek design. Transform your online presence. Let's craft success together. Building digital dreams, one line at a time.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="background-color: #353935;color: white; " id="card2">
+                            <div class="card-body">
+                              <h5 class="card-title">Mobile developpment</h5>
+                              <i class="fa-solid fa-mobile fa-bounce fa-2xl" style="color: #eb0000;"></i>
+                              <p class="card-text">Clean code, intuitive apps. Shape the mobile experience. Let's craft success together. Navigating digital landscapes, one tap at a time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="background-color: #353935;color: white; " id="card3">
+                            <div class="card-body">
+                              <h5 class="card-title">UI/UX DESIGN</h5>
+                              <i class="fa-solid fa-palette fa-bounce fa-2xl" style="color: #fa0000;"></i>
+                              <p class="card-text">Intuitive interfaces, engaging experiences. Elevate user satisfaction. Let's craft success together. Designing digital journeys, one click at a time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="background-color: #353935;color: white; " id="card4">
+                          <div class="card-body">
+                            <h5 class="card-title">Logo Design</h5>
+                            <i class="fa-solid fa-lightbulb fa-bounce fa-2xl" style="color: #fa0000;"></i>
+                            <p class="card-text">Striking logos, memorable brands. Redefine your visual identity. Let's craft success together. Illustrating digital stories, one mark at a time.</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                </div>
+                
+                <br>
+            </div>
+        </section>  
+
+        <section id="Skills">
+            <div id="sec1" class="container text-center">
+                <div class="row align-items-center">
+                    <!--center the h2-->
+                    <div class="col"></div>
+                    <div class="col">
+                        <br><br><br>
+                        <h2 style="color: white;" class="here">Skills</h2>
+                        <br>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="container text-center">
+                  <div class="skil">
+                    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                      <div class="col" id="skil1">
+                        <div class="p-3">
+                            <img src="img/html.jpg" class="img-fluid rounded-circle" alt="..." style="height: 5em;">
+                            <div style="color: white;">HTML</div>
+                        </div>
+                      </div>
+                      <div class="col" id="skil1">
+                        <div class="p-3">
+                            <img src="img/css.jpg" class="img-fluid rounded-circle" alt="..." style="height: 5em;">
+                            <div style="color: white;">CSS</div>
+                        </div>
+                      </div>
+                      <div class="col" id="skil1">
+                        <div class="p-3">
+                            <img src="img/javascript.jpg" class="img-fluid rounded-circle" alt="..." style="height: 5em;">
+                            <div style="color: white;">JAVASCRIPT</div>
+                        </div>
+                      </div>
+                      <div class="col" id="skil1">
+                        <div class="p-3">
+                            <img src="img/bootstrap.jpg" class="img-fluid rounded-circle" alt="..." style="height: 5em;">
+                            <div style="color: white;">BOOTSTRAP 5</div>
+                        </div>
+                      </div>
+                      <div class="col" id="skil1">
+                        <div class="p-3">
+                            <img src="img/php.jpg" class="img-fluid rounded-circle" alt="..." style="height: 5em;">
+                            <div style="color: white;">PHP</div>
+                        </div>
+                      </div>
+                      <div class="col" id="skil2">
+                        <div class="p-3">
+                            <img src="img/nodejs.jpg" class="img-fluid rounded-circle" alt="..." style="height: 5em;">
+                            <div style="color: white;">NODEJS</div>
+                        </div>
+                      </div>
+                      <div class="col" id="skil2">
+                        <div class="p-3">
+                            <img src="img/java.jpg" class="img-fluid rounded-circle" alt="..." style="height: 5em;">
+                            <div style="color: white;">JAVA ANDROID</div>
+                        </div>
+                      </div>
+                      <div class="col" id="skil2">
+                        <div class="p-3">
+                            <img src="img/python.jpg" class="img-fluid rounded-circle" alt="..." style="height: 5em;">
+                            <div style="color: white;">PYTHON</div>
+                        </div>
+                      </div>
+                      <div class="col" id="skil2">
+                        <div class="p-3">
+                            <img src="img/firebase1.jpg" class="img-fluid rounded-circle" alt="..." style="height: 5em;">
+                            <div style="color: white;">Firebase</div>
+                        </div>
+                      </div>
+                      <div class="col" id="skil2">
+                        <div class="p-3">
+                            <img src="img/sql.jpg" class="img-fluid rounded-circle" alt="..." style="height: 5em;">
+                            <div style="color: white;">SQL</div>
+                        </div>
+                      </div>
+                      <div class="col" id="skil3">
+                        <div class="p-3">
+                            <img src="img/figma.jpg" class="img-fluid rounded-circle" alt="..." style="height: 5em;">
+                            <div style="color: white;">FIGMA</div>
+                        </div>
+                      </div>
+                      <div class="col" id="skil3">
+                        <div class="p-3">
+                            <img src="img/ai.jpg" class="img-fluid rounded-circle" alt="..." style="height: 5em;">
+                            <div style="color: white;">Adobe Illustrator</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    
+                  </div>
+            </div>
+        </section>
+
+        <section id="Contact" >
+            <div id="sec1" class="container text-center">
+                <div class="row align-items-center">
+                    <!--center the h2-->
+                    <div class="col"></div>
+                    <div class="col">
+                        <br><br><br>
+                        <h2 style="color: white;" class="here">Contact</h2>
+                        <br>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+            <div class="container text-center" id="cont">
+              <form class="row g-3" action="https://formsubmit.co/hillaltitouh9@gmail.com" method="POST">
+                <div class="col md-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput 1" name="name" placeholder="name" required>
+                    <label for="floatingInput">Full name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput 2" name="subject" placeholder="subject" required>
+                    <label for="floatingInput">Email Object</label>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput 3" name="email" placeholder="email" required>
+                    <label for="floatingInput">Email Address</label>
+                  </div>
+                </div>
+                
+                <div class="col-md-12">
+                  <div class="form-floating">
+                    <textarea class="form-control" id="floatingTextarea2"  name="Message" placeholder="Message" required style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Your Message</label>
+                  </div>
+                </div>
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="submit.html">
+                <div class="col-12">
+                  <button class="btn btn-outline-danger" id="btn1" type="submit" onclick="thanks()">Submit</button>
+                </div>
+              </form>
+              </div>
+        </section>
+
+    </main>
+    <script>
+      /*
+      function thanks(){
+        Swal.fire({
+          title: "Good job!",
+          text: "You clicked the button!",
+          icon: "success"
+        });
+      }
+      */
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
 </body>
 </html>

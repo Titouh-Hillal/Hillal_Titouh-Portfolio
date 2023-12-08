@@ -1,0 +1,129 @@
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .nav-link {
+    position: relative;
+    color: #7C7A7A !important;
+  }
+  
+  .special {
+    position: relative;
+    color: white !important;
+  }
+  
+  .nav-link::after {
+    transition: all 0.1s;
+    opacity: 0;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .nav-link:hover::after {
+    opacity: 1;
+  }
+  
+  .nav-link:hover {
+    color: red !important;
+  }
+  
+  a.nav-link.active {
+    color: white !important;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    scroll-padding: 5rem;
+  }
+  section{
+    min-height: 100vh;
+  }
+  nav{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e4/StarfieldSimulation.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #home {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e4/StarfieldSimulation.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #btn:hover {
+    background-color: red;
+  }
+  
+  #Services {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e4/StarfieldSimulation.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #About {
+    background-color: #1b1b1b;
+  }
+  #multiple-text{
+    color: red;
+  }
+  /* Add this CSS to your stylesheet */
+.typed-cursor {
+  color: red; /* Set the cursor color to red */
+}
+
+  .vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    max-width: 49%;
+  }
+  .big-box {
+    height: 19em;
+  }
+  
+  .small-box {
+    height: 15em;
+  }
+  
+  #Skills {
+    background-color: #1b1b1b;
+  }
+  
+  #Contact {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e4/StarfieldSimulation.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /*
+  @media screen and (max-width: 600px) {
+        #home{
+          height: 150vh;
+        }
+        .hometext{
+          position: relative;
+          top: 5px;
+          left: 180px;
+        }
+        #home #image{
+          position: absolute;
+          top: 600px;
+          left: 150px;
+        }
+        #home #image img{
+          height: 150px;
+        }
+  }*/
+  @media screen and (max-width: 600px) {
+    #About{
+      max-height: 130vh;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    #About{
+      height: 150vh;
+    }
+  }
