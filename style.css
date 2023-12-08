@@ -70,9 +70,8 @@
   #multiple-text{
     color: red;
   }
-  /* Add this CSS to your stylesheet */
 .typed-cursor {
-  color: red; /* Set the cursor color to red */
+  color: red; 
 }
 
   .vcenter {
@@ -98,25 +97,6 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  /*
-  @media screen and (max-width: 600px) {
-        #home{
-          height: 150vh;
-        }
-        .hometext{
-          position: relative;
-          top: 5px;
-          left: 180px;
-        }
-        #home #image{
-          position: absolute;
-          top: 600px;
-          left: 150px;
-        }
-        #home #image img{
-          height: 150px;
-        }
-  }*/
   @media screen and (max-width: 600px) {
     #About{
       max-height: 130vh;
